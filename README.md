@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/abhijeetshegokar/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abhijeetshegokar/ussie/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of ussie is to help you work with European Football Leauge
+The goal of ussie is to help you work with European Football League
 data.
 
 ## Installation
