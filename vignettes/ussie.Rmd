@@ -43,3 +43,29 @@ We can add filtering conditions:
 uss_get_matches("italy", season == 1934) |> glimpse()
 
 ```
+
+
+We can get the final results for seasons:
+
+```{r seasons}
+italy_season <-
+  uss_get_matches("italy") |>
+  uss_make_teams_matches() |>
+  uss_make_seasons_final() |>
+  glimpse()
+
+```
+
+
+We can take a look at effects of tiers on (wins - losses) :
+```{r plot}
+leeds_norwich <-
+  uss_get_matches("england") |>
+  uss_make_teams_matches() |>
+  dplyr::filter(team %in% c("Leeds United", "Norwich City")) |>
+  dplyr::mutate(tier = as.factor(tier)) |>
+  uss_make_seasons_final() |>
+  dplyr::arrange(team, season)
+
+uss_plot_seasons_tiers(leeds_norwich, wins - losses)
+```
