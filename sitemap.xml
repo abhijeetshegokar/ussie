@@ -25,7 +25,16 @@
     <loc>https://abhijeetshegokar.github.io/ussie/reference/index.html</loc>
   </url>
   <url>
+    <loc>https://abhijeetshegokar.github.io/ussie/reference/uss_countries.html</loc>
+  </url>
+  <url>
+    <loc>https://abhijeetshegokar.github.io/ussie/reference/uss_get_matches.html</loc>
+  </url>
+  <url>
     <loc>https://abhijeetshegokar.github.io/ussie/reference/uss_make_matches.html</loc>
+  </url>
+  <url>
+    <loc>https://abhijeetshegokar.github.io/ussie/reference/uss_make_teams_matches.html</loc>
   </url>
   <url>
     <loc>https://abhijeetshegokar.github.io/ussie/reference/ussie-package.html</loc>
